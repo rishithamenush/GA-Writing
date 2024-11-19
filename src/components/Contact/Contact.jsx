@@ -1,11 +1,13 @@
 import React from "react";
 import "./Contact.css";
 import msg_icon from "../../assets/msg-icon.png";
-import mail_icon from "../../assets/mail-icon.png";
-import phone_icon from "../../assets/phone-icon.png";
-import location_icon from "../../assets/location-icon.png";
+import mail_icon from "../../assets/mail.png";
+import phone_icon from "../../assets/callUs.png";
+import location_icon from "../../assets/address.png";
 import white_arrow from "../../assets/white-arrow.png";
-import wApp from "../../assets/w_app.png";
+import wApp from "../../assets/whatsapp.png";
+import facebook from "../../assets/facebook.png";
+import insta from "../../assets/insta.png";
 
 function Contact() {
   const [result, setResult] = React.useState("");
@@ -65,7 +67,7 @@ function Contact() {
             </a>
           </li>
           <li className="flex items-center my-5">
-            <img src={phone_icon} alt="" className="w-[25px] mr-3" />
+            <img src={facebook} alt="" className="w-[25px] mr-3" />
             <a
               href="https://www.facebook.com/share/1CZCpVX335/"
               target="_blank"
@@ -76,7 +78,7 @@ function Contact() {
             </a>
           </li>
           <li className="flex items-center my-5">
-            <img src={phone_icon} alt="" className="w-[25px] mr-3" />
+            <img src={insta} alt="" className="w-[25px] mr-3" />
             <a
               href="https://www.instagram.com/gawritingservices/profilecard/?igsh=MTg1ZndhbnUzYzlncg=="
               target="_blank"
@@ -92,8 +94,7 @@ function Contact() {
           </li>
           <li className="flex items-center my-5">
             <img src={location_icon} alt="" className="w-[25px] mr-3" />
-            102/D,1/2, <br />
-            Piliyandala 10300
+            102/D,1/2, Piliyandala 10300
           </li>
         </ul>
       </div>
