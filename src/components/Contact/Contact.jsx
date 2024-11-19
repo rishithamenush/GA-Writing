@@ -5,6 +5,7 @@ import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
 import white_arrow from "../../assets/white-arrow.png";
+import wApp from "../../assets/w_app.png";
 
 function Contact() {
   const [result, setResult] = React.useState("");
@@ -51,6 +52,39 @@ function Contact() {
           <li className="flex items-center my-5">
             <img src={mail_icon} alt="" className="w-[25px] mr-3" />
             gawritingservices@gmail.com
+          </li>
+          <li className="flex items-center my-5">
+            <img src={wApp} alt="" className="w-[25px] mr-3" />
+            <a
+              href="https://wa.me/94763055150"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              Chat on WhatsApp
+            </a>
+          </li>
+          <li className="flex items-center my-5">
+            <img src={phone_icon} alt="" className="w-[25px] mr-3" />
+            <a
+              href="https://www.facebook.com/share/1CZCpVX335/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              Visit Facebook
+            </a>
+          </li>
+          <li className="flex items-center my-5">
+            <img src={phone_icon} alt="" className="w-[25px] mr-3" />
+            <a
+              href="https://www.instagram.com/gawritingservices/profilecard/?igsh=MTg1ZndhbnUzYzlncg=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              Follow on Instagram
+            </a>
           </li>
           <li className="flex items-center my-5">
             <img src={phone_icon} alt="" className="w-[25px] mr-3" />

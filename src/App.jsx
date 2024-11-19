@@ -21,7 +21,6 @@ function App() {
         <Title subTitle="Our Services" title="Explore Our Offerings" />
         <Institute />
         <Title subTitle="Feedback" title="What Our Clients Say About Us" />
-
         <Testimonials />
         <Title subTitle="Contact Us" title="Get In Touch With Us" />
         <Contact />
