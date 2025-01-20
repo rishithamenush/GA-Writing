@@ -7,11 +7,16 @@ function Hero() {
     <div className="myHero myContainer text-center flex items-center justify-center">
       <div className="max-w-[800px]">
         <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold">
-          We ensure best <span className="text-yellow-500">services</span> for
-          your Academic & Professional.
+          Top-Quality Academic, Research, and Professional{" "}
+          <span className="text-yellow-500">Writing Services.</span>
         </h1>
         <p className=" text-center my-5 leading-8 text-[18px]">
-          Your Success, Our Commitment – Excellence in Every Assignment!
+          Looking for expert assistance with academic assignments, research
+          projects, or professional writing? At G.A. Writing, we deliver
+          customized, high-quality content for clients worldwide in Sinhala,
+          Tamil, and English. With over six years of experience and a team of
+          50+ highly qualified writers (Master’s and PhDs), we ensure excellence
+          tailored to your needs.
         </p>
         <Button btnTitle="Explore more" btnUrl="#" />
       </div>
