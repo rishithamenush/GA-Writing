@@ -6,6 +6,8 @@ import user_1 from "../../assets/user-1.png";
 import user_2 from "../../assets/user-2.png";
 import user_3 from "../../assets/user-3.png";
 import user_4 from "../../assets/user-4.png";
+import male from "../../assets/male.png";
+import female from "../../assets/female.png";
 import Slide from "./Slide";
 
 function Testimonials() {
@@ -50,43 +52,43 @@ function Testimonials() {
           className="flex w-[200%] overflow-x-hidden transition delay-500"
         >
           <Slide
-            slideImg={user_1}
+            slideImg={male}
             slideName="Sanjay De Silva"
             slideJob="Client"
             slideDesc="Skilled writers, excellent communication, and timely delivery. Highly recommend for academic writing needs."
           />
           <Slide
-            slideImg={user_2}
+            slideImg={female}
             slideName="Crishani De Silva"
             slideJob="Client"
             slideDesc="Great service! They helped me out during a tough time and delivered high-quality work on time."
           />
           <Slide
-            slideImg={user_3}
+            slideImg={male}
             slideName="Raveen Nanayakkara"
             slideJob="Client"
-            slideDesc="Quick turnaround and high standards. I’ll definitely come back for future assignments."
+            slideDesc="Quick turnaround and high standards. I'll definitely come back for future assignments."
           />
           <Slide
-            slideImg={user_4}
+            slideImg={male}
             slideName="Pamuditha Viraj"
             slideJob="Client"
             slideDesc="Outstanding work! Delivered beyond expectations. Highly thankful for their professionalism."
           />
           <Slide
-            slideImg={user_1}
+            slideImg={female}
             slideName="Kalpana Wickramarathna"
             slideJob="Client"
             slideDesc="Brilliant service with great communication. Will definitely use their help again!"
           />
           <Slide
-            slideImg={user_2}
+            slideImg={female}
             slideName="Aruni Mahanama"
             slideJob="Client"
             slideDesc="They saved me at the last minute with exceptional support. Great team and great work!"
           />
           <Slide
-            slideImg={user_3}
+            slideImg={male}
             slideName="Jayanath Ranatunga"
             slideJob="Client"
             slideDesc="This is the best place to get reliable help for completing tasks professionally and on time."

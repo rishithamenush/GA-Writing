@@ -16,7 +16,7 @@ function Hero() {
           customized, high-quality content for clients worldwide in Sinhala,
           Tamil, and English. With over six years of experience and a team of
           50+ highly qualified writers (Master’s and PhDs), we ensure excellence
-          tailored to your needs..
+          tailored to your needs.
         </p>
         <Button btnTitle="Explore more" btnUrl="#" />
       </div>
